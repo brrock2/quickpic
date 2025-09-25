@@ -3,9 +3,7 @@ import { withPlausibleProxy } from "next-plausible";
 
 const nextConfig: NextConfig = {
   /* config options here */
-  experimental: {
-    reactCompiler: true,
-  },
+  output: 'export',
   eslint: {
     ignoreDuringBuilds: true,
   },
